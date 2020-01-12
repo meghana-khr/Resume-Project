@@ -1,0 +1,17 @@
+section{
+    width: 738px;
+    margin: 0px auto;
+}
+
+.box{
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 0px #dedede; 
+    width: 738px;
+    margin: 15px auto;
+    padding: 30px 60px;
+    border-radius: 5px;
+
+}
+.b1{
+    text-align:center;
+}

@@ -1,6 +1,6 @@
 import React from 'react'
 import './section.css'
-
+import Profilepick from  './image/Meghana.jpg'
 const Section =()=>{
     return(
         <section id="about">
@@ -8,7 +8,7 @@ const Section =()=>{
             <div class="profile-summary">
                 <div class="discription">
                     <div class="profile-imag">
-                        <img src=".../src/Meghana.jpg" alt="No Image"  class="profile-pic"/> 
+                        <img src={Profilepick} alt="No Image"  class="profile-pic"/> 
                     </div>
                     <div class="profile-heading">
                         <h1>Meghana</h1>
@@ -23,8 +23,8 @@ const Section =()=>{
                     </div>
               <div class="profile-description">
                     <h1>About Me</h1>
-                    <p>asddsdsfsdfsdfsdfdfdsfsefsdfdsfdsfsdfdsfdsfdsfsdfdsfsdfdsfffffdfsdfdffsdfdsfdfdsf</p>
-                      <p>asddsdsfsdfsdfsdfdfdsfsefsdfdsfdsfsdfdsfdsfdsfsdfdsfsdfdsfffffdfsdfdffsdfdsfdfdsf</p>
+                    <p>Overthinker,Creator of ChillarKart,Previously i have worked on IOT Projects.Passionate to learn new Technologies.Currently Intern at IDEASPACE.</p>
+                      <p>And i am from RNSIT.</p>
             </div>
         </div>
         </div>
